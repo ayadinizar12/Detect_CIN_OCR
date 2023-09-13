@@ -1,0 +1,6 @@
+!pip install roboflow
+
+from roboflow import Roboflow
+rf = Roboflow(api_key="AWxyDMzMSU0YRsXG3lyr")
+project = rf.workspace("nizar-zmhu7").project("detect_cin-gvgxg")
+dataset = project.version(11).download("yolov8")

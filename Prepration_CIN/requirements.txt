@@ -1,0 +1,6 @@
+torch
+torchvision
+opencv-python==3.4.10.37
+scikit-image
+imutils
+numpy
